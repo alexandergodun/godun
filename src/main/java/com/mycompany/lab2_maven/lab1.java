@@ -28,7 +28,7 @@ public class lab1 {
         symbol r1 = new symbol(sc1.nextLine());	
         text t2 = new text(r1.replace(t1.Gettext(), n1.Getnumber(), r1.Getsymbol()));
         System.out.println("Исправленный текст: " + t2.Gettext());
-	
+	System.out.println("I <3 Krujka");
 
     }
 }
