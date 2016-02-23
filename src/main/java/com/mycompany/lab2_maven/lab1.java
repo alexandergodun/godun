@@ -23,7 +23,7 @@ public class lab1 {
         System.out.println("Введите номер заменяемого элемента");
         number n1 = new number(sc.nextInt()); 
   
-        System.out.println("Введите символ");
+        System.out.println("Ведите символ");
         Scanner sc1 = new Scanner(System.in);
         symbol r1 = new symbol(sc1.nextLine());	
         text t2 = new text(r1.replace(t1.Gettext(), n1.Getnumber(), r1.Getsymbol()));
